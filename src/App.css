@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+/*newly added center class here*/
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.particles {
+  position: fixed; /*everything stays exactly where it is*/
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1; /*it tell what layer the part to be-> here it says -1 so to be below*/
+}
